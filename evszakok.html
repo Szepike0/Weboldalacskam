@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Évszakok</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>ÉVSZAKOK</h1>
+
+    <div class="gallery">
+        <div class="card">
+            <img src="images/tavasz.jpg" alt="Tavasz">
+        </div>
+        <div class="card">
+            <img src="images/nyar.jpg" alt="Nyár">
+        </div>
+        <div class="card">
+            <img src="images/osz.jpg" alt="Ősz">
+        </div>
+        <div class="card">
+            <img src="images/tel.jpg" alt="Tél">
+        </div>
+    </div>
+body {
+    margin: 0;
+    font-family: "Times New Roman", serif;
+    background-color: #f4a300;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 30px;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.gallery {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 260px;
+    height: 160px;
+    border: 4px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+</body>
+</html>
